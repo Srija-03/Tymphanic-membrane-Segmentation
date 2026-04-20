@@ -23,3 +23,35 @@ The system combines object detection and image segmentation to provide accurate 
 - Kaggle GPU  
 
 ## Project Structure
+Tympanic_Membrane/
+│
+├── tympanic_membrane.ipynb
+
+
+## Model Performance
+| Model   | Metric      | Score  |
+|--------|------------|--------|
+| YOLOv8 | mAP@50     | 97.9%  |
+| U-Net  | Dice Score | 88%    |
+
+## Results
+The model generates color-coded segmentation overlays:
+- Red → Congestion  
+- Blue → Perforation  
+- Yellow → Retraction  
+
+## How to Run
+1. Clone the repository
+2. Install dependencies
+3. Run the notebook
+
+## Future Improvements
+- Real-time detection system  
+- Web or mobile deployment  
+- Larger dataset for better generalization  
+
+## Author
+Srija Roy  
+
+## License
+This project is for academic and research purposes. 
